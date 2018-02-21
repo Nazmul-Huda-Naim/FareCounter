@@ -430,8 +430,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         dist = mLastKnownLocation.distanceTo(temp);
         dist/=1000.0;
         calcFare();
-        distance.setText("   "+dist+"Km");
-        fare.setText("  "+cost+"tk");
+        distance.setText("   "+dist+" Km");
+        fare.setText("  "+cost+" Tk");
     }
 
     @Override
